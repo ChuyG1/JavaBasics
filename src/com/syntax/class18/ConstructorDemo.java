@@ -16,6 +16,9 @@ public class ConstructorDemo {
 	ConstructorDemo(int num){
 		System.out.println("i am a constructor with 1 integer value "+num);
 	}
+	void ConstructorDemo() { //as soon as we add return type --> IT BECOMES METHOD
+		System.out.println("i do not know who i am");
+	}
 	
 	public static void main(String[] args) {
 		ConstructorDemo obj=new ConstructorDemo();
