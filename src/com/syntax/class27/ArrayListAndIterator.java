@@ -23,7 +23,10 @@ public class ArrayListAndIterator {
 		sweets.addAll(choco);
 		
 		System.out.println(sweets.size());
+		System.out.println("--------------------------");
 		System.out.println(sweets);
+		
+		System.out.println("-----------------------");
 		
 		//we want to iterate through the collection
 		Iterator<String> it=sweets.iterator();
@@ -32,12 +35,14 @@ public class ArrayListAndIterator {
 			String element=it.next();
 			System.out.println(element);
 		}
+		System.out.println("---------------------------");
 		
 		//i want to get elements backwards
 		for(int i=sweets.size()-1; i>=0; i--) {
 			System.out.print(sweets.get(i)+";");
 		}
 		
+
 		//advanced for loop
 		//iterates in 1 direction
 		for(String str:sweets) {

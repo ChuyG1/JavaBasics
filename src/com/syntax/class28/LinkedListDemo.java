@@ -16,7 +16,7 @@ public class LinkedListDemo {
 		
 		int size=llist.size();
 		System.out.println(size);
-		
+		System.out.println("-------------------------------");
 		//get all elements 1 by 1 in 3 different ways
 		
 		for(String a:llist) {

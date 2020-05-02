@@ -18,7 +18,7 @@ public class ArrayListDemo {
 		
 		//arrayList is dynamic array
 		
-		
+		System.out.println("-------------------------------------");
 		
 		//how to get number of elements inside arrayList?
 		int size=arrayList.size();
